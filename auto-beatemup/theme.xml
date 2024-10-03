@@ -14,7 +14,7 @@
          <pos>0 0</pos>
          <size>1 1</size>
          <zIndex>2</zIndex>                 
-         <path>./_inc/auto-lastplayedmain.png</path>
+         <path>./_inc/btmupsmain.png</path>
       </image>
       
 	 <video name="backgroundvideo" extra="true">
@@ -22,9 +22,9 @@
         <visible>true</visible>	 	 
         <rotation></rotation>  
         <roundCorners>0.00</roundCorners>             
-        <pos>0.236 0.324</pos>
+        <pos>0.051 0.294</pos>
         <origin>0 0</origin>
-        <size>0.468 0.465</size>
+        <size>0.489 0.583</size>
         <color>FFFFFF</color>
         <zIndex>1</zIndex>         
      </video>            
@@ -34,7 +34,7 @@
       <image name="background86" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <path>./_inc/auto-lastplayedvideo.png</path>
+         <path>./_inc/btmupsvideo.png</path>
          <maxSize>1 1</maxSize>
          <zIndex>2</zIndex>           
       </image>        
@@ -43,9 +43,9 @@
         <default>./_inc/videos/_default.mp4</default>
         <visible>true</visible>	 	 
         <rotation>0</rotation>             
-        <pos>0.484 0.433</pos>
+        <pos>0.463 0.308</pos>
         <origin>0 0</origin>
-        <size>0.374 0.379</size>
+        <size>0.489 0.583</size>
         <color>FFFFFF</color>
         <zIndex>1</zIndex>		             
       </video>                                                   
@@ -55,7 +55,7 @@
       <image name="background86" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
-         <path>./_inc/auto-lastplayedbasic.png</path>
+         <path>./_inc/btmupsbasic.png</path>
          <maxSize>1 1</maxSize>
          <zIndex>2</zIndex>           
       </image>                                                          
