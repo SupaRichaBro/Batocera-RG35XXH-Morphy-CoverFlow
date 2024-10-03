@@ -4,87 +4,62 @@
 
 	<view name="system">
 		<image name="logo">
-			<path>./system.png</path>
+			<path>./_inc/system.png</path>
 		</image>
-                		
-		<image name="background_icon" extra="true">
-         <zIndex>1</zIndex>                 
-         <path>./background.png</path>
-        <pos>0 0</pos>
-        <size>1 1</size>         
+	</view>
+
+	<view name="system">
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>2</zIndex>                 
+         <path>./_inc/pcenginemain.png</path>
       </image>
-	</view>	
-	
-  	<view name="detailed, video, basic, grid, gamecarousel">
-      <image name="logo" extra="true">
+      
+	 <video name="backgroundvideo" extra="true">
+        <path>{random}</path>          
+        <visible>true</visible>	 	 
+        <rotation></rotation>  
+        <roundCorners>0.00</roundCorners>             
+        <pos>0.291 0.419</pos>
+        <origin>0 0</origin>
+        <size>0.425 0.493</size>
+        <color>FFFFFF</color>
+        <zIndex>1</zIndex>         
+     </video>            
+	</view>
+
+   <view name="detailed, video, gamecarousel, grid, basic">         
+      <image name="background86" extra="true">
          <origin>0 0</origin>
-         <path>./logo.png</path>         
          <pos>0 0</pos>
-         <size>0.24 0.3</size>
-         <zIndex>50</zIndex>                                  
-      </image> 
-     <image name="1" extra="true">
-         <origin>0 0</origin>
-         <path>./1.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                   
-      </image> 
-      <image name="3" extra="true">
-         <origin>0 0</origin>
-         <path>./3.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                   
-      </image>
-      <image name="5" extra="true">
-         <origin>0 0</origin>
-         <path>./5.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                   
+         <path>./_inc/pcenginevideo.png</path>
+         <maxSize>1 1</maxSize>
+         <zIndex>2</zIndex>           
       </image>        
-      <image name="7" extra="true">
+      
+     <video name="md_video">
+        <default>./_inc/videos/_default.mp4</default>
+        <visible>true</visible>	 	 
+        <rotation>0</rotation>             
+        <pos>0.503 0.363</pos>
+        <origin>0 0</origin>
+        <size>0.306 0.355</size>
+        <color>FFFFFF</color>
+        <zIndex>1</zIndex>		             
+      </video>                                                   
+   </view> 
+
+   <view name="basic">         
+      <image name="background86" extra="true">
          <origin>0 0</origin>
-         <path>./7.png</path>         
          <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                   
-      </image>
-      <image name="9" extra="true">
-         <origin>0 0</origin>
-         <path>./9.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                 
-      </image>              
-      <image name="2" extra="true">
-         <origin>0 0</origin>
-         <path>./2.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                   
-      </image>  
-       <image name="4" extra="true">
-         <origin>0 0</origin>
-         <path>./4.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                 
-      </image> 
-       <image name="6" extra="true">
-         <origin>0 0</origin>
-         <path>./6.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>                                   
-      </image> 
-       <image name="8" extra="true">
-         <origin>0 0</origin>
-         <path>./8.png</path>         
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>2</zIndex>                                  
-      </image>                  
-	</view>		
+         <path>./_inc/pcenginebasic.png</path>
+         <maxSize>1 1</maxSize>
+         <zIndex>2</zIndex>           
+      </image>                                                          
+   </view> 
+
+
 </theme>
